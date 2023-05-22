@@ -1,0 +1,84 @@
+[
+    {
+        "id": 0,
+        "name": "Miner",
+        "ports": [
+            {
+                "id": 0,
+                "mode": "output"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Smelter",
+        "ports": [
+            {
+                "id": 0,
+                "mode": "input"
+            },
+            {
+                "id": 1,
+                "mode": "output"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Constructor",
+        "ports": [
+            {
+                "id": 0,
+                "mode": "input"
+            },
+            {
+                "id": 1,
+                "mode": "output"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Assembler",
+        "ports": [
+            {
+                "id": 0,
+                "mode": "input"
+            },
+            {
+                "id": 1,
+                "mode": "input"
+            },
+            {
+                "id": 2,
+                "mode": "output"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Manufacturer",
+        "ports": [
+            {
+                "id": 0,
+                "mode": "input"
+            },
+            {
+                "id": 1,
+                "mode": "input"
+            },
+            {
+                "id": 2,
+                "mode": "input"
+            },
+            {
+                "id": 3,
+                "mode": "input"
+            },
+            {
+                "id": 4,
+                "mode": "output"
+            }
+        ]
+    }
+]

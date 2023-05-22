@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Iron Ore"
+    },
+    {
+        "name": "Iron Ingot"
+    },
+    {
+        "name": "Copper Ore"
+    },
+    {
+        "name": "Copper Ingot"
+    },
+    {
+        "name": "Copper Sheet"
+    },
+    {
+        "name": "Iron Plate"
+    },
+    {
+        "name": "Iron Rod"
+    },
+    {
+        "name": "Cable"
+    },
+    {
+        "name": "Wire"
+    },
+    {
+        "name": "Screw"
+    }
+]

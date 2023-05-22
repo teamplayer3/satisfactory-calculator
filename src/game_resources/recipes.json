@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Iron Ore",
+        "targetMachine": "Miner",
+        "inputs": [],
+        "output": [
+            {
+                "flow": 30,
+                "resource": "Iron Ore"
+            }
+        ]
+    },
+    {
+        "name": "Copper Ore",
+        "targetMachine": "Miner",
+        "inputs": [],
+        "output": [
+            {
+                "flow": 30,
+                "resource": "Copper Ore"
+            }
+        ]
+    },
+    {
+        "name": "Copper Ingot",
+        "targetMachine": "Smelter",
+        "inputs": [
+            {
+                "flow": 30,
+                "resource": "Copper Ore"
+            }
+        ],
+        "output": [
+            {
+                "flow": 30,
+                "resource": "Copper Ingot"
+            }
+        ]
+    },
+    {
+        "name": "Iron Ingot",
+        "targetMachine": "Smelter",
+        "inputs": [
+            {
+                "flow": 30,
+                "resource": "Iron Ore"
+            }
+        ],
+        "output": [
+            {
+                "flow": 30,
+                "resource": "Iron Ingot"
+            }
+        ]
+    },
+    {
+        "name": "Screw",
+        "targetMachine": "Constructor",
+        "inputs": [
+            {
+                "flow": 10,
+                "resource": "Iron Ingot"
+            }
+        ],
+        "output": [
+            {
+                "flow": 40,
+                "resource": "Screw"
+            }
+        ]
+    },
+    {
+        "name": "Copper Sheet",
+        "targetMachine": "Constructor",
+        "inputs": [
+            {
+                "flow": 20,
+                "resource": "Copper Ingot"
+            }
+        ],
+        "output": [
+            {
+                "flow": 10,
+                "resource": "Copper Sheet"
+            }
+        ]
+    },
+    {
+        "name": "Wire",
+        "targetMachine": "Constructor",
+        "inputs": [
+            {
+                "flow": 15,
+                "resource": "Copper Ingot"
+            }
+        ],
+        "output": [
+            {
+                "flow": 30,
+                "resource": "Wire"
+            }
+        ]
+    },
+    {
+        "name": "Cable",
+        "targetMachine": "Constructor",
+        "inputs": [
+            {
+                "flow": 60,
+                "resource": "Wire"
+            }
+        ],
+        "output": [
+            {
+                "flow": 30,
+                "resource": "Cable"
+            }
+        ]
+    },
+    {
+        "name": "Iron Rod",
+        "targetMachine": "Constructor",
+        "inputs": [
+            {
+                "flow": 15,
+                "resource": "Iron Ingot"
+            }
+        ],
+        "output": [
+            {
+                "flow": 15,
+                "resource": "Iron Rod"
+            }
+        ]
+    },
+    {
+        "name": "Iron Plate",
+        "targetMachine": "Constructor",
+        "inputs": [
+            {
+                "flow": 30,
+                "resource": "Iron Ingot"
+            }
+        ],
+        "output": [
+            {
+                "flow": 20,
+                "resource": "Iron Plate"
+            }
+        ]
+    }
+]
